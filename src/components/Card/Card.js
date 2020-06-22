@@ -15,6 +15,9 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
+  card: {
+    margin: 10
+  }
 });
 
 export default function ImgMediaCard(props) {
@@ -23,8 +26,8 @@ export default function ImgMediaCard(props) {
 
         //<img style={{width: 380}} src= alt='AmeriCorps NCCC' />
           
-        {name: 'AmeriCorps', src: 'https://cdn.freebiesupply.com/logos/thumbs/2x/americorps-nccc-logo.png', alt:'AmeriCorps NCCC', text: 'I spent two years in AmeriCorps NCCC, working in teams of ten on various community service projects such as cleaning up after hurricanes Katrina and Rita, giving tours at the National Mississippi River Museum and Aquarium, and being a camp counselor at a YMCA camp'},
-        {name: 'Navy', src: 'https://www.navy.mil/management/photodb/webphoto/web_170511-N-SA173-199.jpg', alt: 'CVN 72 does high speed turns', text: 'In my six years in the navy, I worked in (and managed) a division of 40 people and a watch team of seven responsible for maintenance and operations for using steam from a nuclear reactor to produce electricity, drinking water, heating steam, aircraft launching steam, and main propulsion.'},
+        {name: 'AmeriCorps', src: 'https://cdn.freebiesupply.com/logos/thumbs/2x/americorps-nccc-logo.png', alt:'AmeriCorps NCCC', text: 'I spent two years in AmeriCorps NCCC, working in teams of ten on various community service projects.'},
+        {name: 'Navy', src: 'https://www.navy.mil/management/photodb/webphoto/web_170511-N-SA173-199.jpg', alt: 'CVN 72 does high speed turns', text: 'I spent 6 years in the navy as a Nuclear Machinists Mate'},
         {name: 'Chemistry', src: 'https://images.unsplash.com/photo-1532187643603-ba119ca4109e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=380', alt: 'Chemistry Degree', text: 'I received a Bachelors Degree in Chemistry from Metropolitan State University' },
         {name: 'Prime', src: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80', text: 'I received a full stack web development certification, and built a few websites for clients and for myself'},
         {name: 'Space', src: 'https://images-assets.nasa.gov/image/PIA04921/PIA04921~medium.jpg', alt: 'Andromeda galaxy', text: 'I fins outer space to be fascinating. I would love to move to Mars!'},
@@ -35,7 +38,7 @@ export default function ImgMediaCard(props) {
     return (
         <>
         {currentObject.map( object => (
-            <Card className={classes.root} key={object.name}>
+            <Card className={`${classes.root} ${classes.card}`} key={object.name}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -54,10 +57,10 @@ export default function ImgMediaCard(props) {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+{/*           <Button size="small" color="primary">
             Share
-          </Button>
-          <Button size="small" color="primary">
+          </Button> */}
+          <Button variant="contained" size="small" color="primary">
             Learn More
           </Button>
         </CardActions>
