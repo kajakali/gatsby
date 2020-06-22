@@ -60,9 +60,9 @@ export default function ImgMediaCard(props) {
 {/*           <Button size="small" color="primary">
             Share
           </Button> */}
-          <Button variant="contained" size="small" color="primary">
+{/*           <Button variant="contained" size="small" color="primary">
             Learn More
-          </Button>
+          </Button> */}
         </CardActions>
       </Card>
 
