@@ -6,13 +6,13 @@ import Box from '@material-ui/core/Box';
 
 
 
-const BaseballPage = (props) => {
+const CrossStitchPage = (props) => {
 
 
     return(
       <>
       <Box>
-          <p>hello this is the future baseball page</p>
+          <p>hello this is the future Cross Stitch page</p>
       </Box>
       <Link to="/">Go back to the homepage</Link>
       </>
@@ -21,4 +21,4 @@ const BaseballPage = (props) => {
 
     }
 
-export default BaseballPage;
+export default CrossStitchPage;

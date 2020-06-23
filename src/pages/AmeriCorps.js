@@ -6,7 +6,7 @@ import Box from '@material-ui/core/Box';
 
 
 
-const PrimePage = (props) => {
+const AmeriCorpsPage = (props) => {
 
 
     return(
@@ -21,4 +21,4 @@ const PrimePage = (props) => {
 
     }
 
-export default PrimePage;
+export default AmeriCorpsPage;

@@ -38,6 +38,7 @@ export default function ImgMediaCard(props) {
         {name: 'Space', src: 'https://images-assets.nasa.gov/image/PIA04921/PIA04921~medium.jpg', alt: 'Andromeda galaxy', text: 'I fins outer space to be fascinating. I would love to move to Mars!'},
         {name: 'Baseball', src: 'https://images.unsplash.com/photo-1516731415730-0c607149933a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=350&q=80', alt: 'major league baseballs', text: `I didn't see my first major league baseball game until I moved to Seattle in 2000, but I've loved it ever since. I had attended St Paul Saints games before 2000, so I was puzzled to discover that most minot league teams are associated with a major league team.` },
         {name: 'Rain', src: 'https://images.unsplash.com/photo-1572883781464-e76e5597e432?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80', alt: 'walking in the rain in the city', text: `I understand that most people aren't as excited about inclement weather as I am, but I LOVE rain.`},
+        {name: 'CrossStitch', src: 'http://www.artecyshop.com/images/large/colourfulabstract_LRG.jpg', alt: 'Colourful Abstract', text: `In my free time, I love to cross stitch`},
     ]
     const currentObject = imageArray.filter(item => item.name === props.name);
     return (
