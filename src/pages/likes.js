@@ -10,9 +10,9 @@ const Likes = () => (
       <Layout>
       <SEO title="Likes" />
       <h1>Things I like</h1>
-      <Card name='Rain'/>
-      <Card name='Baseball' />
-      <Card name='Space' />
+      <Card name='Rain' click={()=>console.log('Rain')}/>
+      <Card name='Baseball' click={()=>console.log('Baseball')}/>
+      <Card name='Space' click={()=>console.log('Space')}/>
       <Link to="/">Go back to the homepage</Link>
     </Layout>
 

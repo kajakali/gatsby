@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
@@ -12,16 +12,18 @@ import Box from '@material-ui/core/Box';
 
 
 
-const IndexPage = () => (
+const IndexPage = (props) => {
+  //const [choice, setChoice] = React.useState=('');
 
+    return(
       <Layout>
       <SEO title="Home" />
       <h1>Things I've Done</h1>
       <Box>
-        <Card name='Prime' />
-        <Card name='Chemistry' />
-        <Card name='Navy'/>
-        <Card name='AmeriCorps'/>
+        <Card name='Prime' click={()=>console.log('Prime')}/>
+        <Card name='Chemistry' click={()=>console.log('Chemistry')}/>
+        <Card name='Navy' click={()=>console.log('Navy')}/>
+        <Card name='AmeriCorps' click={()=>console.log('AmeriCorps')}/>
       </Box>
   {/*     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
@@ -29,7 +31,9 @@ const IndexPage = () => (
       <Link to="/likes/">Go see things I like</Link> <br />
   
     </Layout>
+    )
 
-)
 
-export default IndexPage
+    }
+
+export default IndexPage;
