@@ -13,21 +13,21 @@ const NavyPage = (props) => {
       <>
       <Box>
           <p>hello this is the future navy page</p>
-          <p> I spent six years in the navy as a Nuclear Machinists Mate (MMN). That's a mechanic that works on 
+          <p> I spent six years in the navy as a Nuclear Machinists Mate (MMN). That&apos;s a mechanic that works on 
           nuclear powered aircraft carriers. My carrier was the USS Abraham Lincoln, CVN 72.</p>
-          <p>Before you're qualified to be a MMN, you have to do a lot of training. Years of training. First
-          there's boot camp, of course, where you learn how to tie knots and march in step (I can tie knots, 
+          <p>Before you&apos;re qualified to be a MMN, you have to do a lot of training. Years of training. First
+          there&apos;s boot camp, of course, where you learn how to tie knots and march in step (I can tie knots, 
           but I look silly while marching - when we did our marching inspection, they left me in our berthing)
-          Then there is nuclear field A school - that's learning about hammers and wrenches and lube oil and fluid dynamics.
+          Then there is nuclear field A school - that&apos;s learning about hammers and wrenches and lube oil and fluid dynamics.
           Next is power school, the first tough school - you spend six months learning a couple of years of college level
-          nuclear physics. Things like reactor principles, and nuclear chemistry and materials and how they're affected
+          nuclear physics. Things like reactor principles, and nuclear chemistry and materials and how they&apos;re affected
           by radiation. You also learn electrical and mechanical theory. My worst class was electrical theory for mechanical
           operators. I got an 87.5%. Electrical theory still bothers me - alternating current is so strange! And even though
           I think the idea that every motor is a generator and every generator is a motor (once they start moving), I still 
-          think electrical theory is kind of tough. I graduated first in my class, and went off to prototype. That's where they 
+          think electrical theory is kind of tough. I graduated first in my class, and went off to prototype. That&apos;s where they 
           let a bunch of teenagers operate little nuclear power plants in old submarines in the river. Prototype is tough in a 
-          different way than power school - it's when you have to put theory in to practice, and when you have to balance learning 
-          new information with copmleting all the tasks you're given. After over a year and a half of schooling, you finally get to 
+          different way than power school - it&apos;s when you have to put theory in to practice, and when you have to balance learning 
+          new information with copmleting all the tasks you&apos;re given. After over a year and a half of schooling, you finally get to 
           go out to the fleet!
           </p>
           <p>Of course, when you get to your new ship, you have to start all over, learning a whole new set of equipment. The general 
