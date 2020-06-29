@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "gatsby";
 import Box from '@material-ui/core/Box';
 
-
+//TODO style the page... 
 
 
 
@@ -11,7 +11,7 @@ const NavyPage = (props) => {
 
     return(
       <>
-      <Box>
+      <Box p={8}>
           <p>hello this is the future navy page</p>
           <p> I spent six years in the navy as a Nuclear Machinists Mate (MMN). That&apos;s a mechanic that works on 
           nuclear powered aircraft carriers. My carrier was the USS Abraham Lincoln, CVN 72.</p>
