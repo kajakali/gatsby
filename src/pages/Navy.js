@@ -12,7 +12,7 @@ const NavyPage = (props) => {
     return(
       <>
       <Box p={8}>
-          <p>hello this is the future navy page</p>
+          <h1>United States Navy Nuclear Machinists Mate</h1>
           <p> I spent six years in the navy as a Nuclear Machinists Mate (MMN). That&apos;s a mechanic that works on 
           nuclear powered aircraft carriers. My carrier was the USS Abraham Lincoln, CVN 72.</p>
           <p>Before you&apos;re qualified to be a MMN, you have to do a lot of training. Years of training. First
@@ -43,8 +43,9 @@ const NavyPage = (props) => {
           but also anything else that needs to be done to update the ship.</p>
           {/**TODO add link to navy page for nukes, also add keynote presentation I made on MMNs
           Also, perhaps, talk about how these skill make a good programmer... */}
+          <Link to="/">Go back to the homepage</Link>
       </Box>
-      <Link to="/">Go back to the homepage</Link>
+
       </>
     )
 
