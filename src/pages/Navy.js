@@ -13,7 +13,7 @@ const NavyPage = (props) => {
       <>
       <Box p={8}>
           <h1>United States Navy Nuclear Machinists Mate</h1>
-          <p> I spent six years in the navy as a Nuclear Machinists Mate (MMN). That&apos;s a mechanic that works on 
+          <p> I spent six years in the navy as a <a target="_blank" rel="noopener noreferrer" href="https://www.navy.com/nuclear">Nuclear</a> Machinists Mate (MMN). That&apos;s a mechanic that works on 
           nuclear powered aircraft carriers. My carrier was the USS Abraham Lincoln, CVN 72.</p>
           <p>Before you&apos;re qualified to be a MMN, you have to do a lot of training. Years of training. First
           there&apos;s boot camp, of course, where you learn how to tie knots and march in step (I can tie knots, 
