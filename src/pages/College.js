@@ -6,13 +6,13 @@ import Box from '@material-ui/core/Box';
 
 
 
-const ChemistryPage = (props) => {
+const CollegePage = (props) => {
 
 
     return(
       <>
       <Box>
-          <p>hello this is the future chemistry page</p>
+          <p>hello this is the future page about college</p>
       </Box>
       <Link to="/">Go back to the homepage</Link>
       </>
@@ -21,4 +21,4 @@ const ChemistryPage = (props) => {
 
     }
 
-export default ChemistryPage;
+export default CollegePage;

@@ -11,7 +11,7 @@ const CrossStitchPage = (props) => {
 
     return(
       <>
-      <Box>
+      <Box p={8}>
           <p>hello this is the future Cross Stitch page</p>
       </Box>
       <Link to="/">Go back to the homepage</Link>

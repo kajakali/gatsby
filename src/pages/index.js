@@ -21,7 +21,7 @@ const IndexPage = (props) => {
       <h1>Things I've Done</h1>
       <Box>
         <Card name='Prime' click={()=>console.log('Prime')}/>
-        <Card name='Chemistry' click={()=>console.log('Chemistry')}/>
+        <Card name='College' click={()=>console.log('College')}/>
         <Card name='Navy' click={()=>console.log('Navy')}/>
         <Card name='AmeriCorps' click={()=>console.log('AmeriCorps')}/>
       </Box>
