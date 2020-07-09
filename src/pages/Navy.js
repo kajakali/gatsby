@@ -13,7 +13,7 @@ const NavyPage = (props) => {
       <>
       <Box p={8}>
           <h1>United States Navy Nuclear Machinists Mate</h1>
-          <p> I spent six years in the navy as a <a target="_blank" rel="noopener noreferrer" href="https://www.navy.com/nuclear">Nuclear</a> Machinists Mate (MMN). That&apos;s a mechanic that works on 
+              <p> I spent six years in the navy as a <a target="_blank" rel="noopener noreferrer" href="https://www.navy.com/nuclear">Nuclear</a> Machinists Mate (MMN). That&apos;s a mechanic that works on 
           nuclear powered aircraft carriers. My carrier was the USS Abraham Lincoln, CVN 72.</p>
           <p>Before you&apos;re qualified to be a MMN, you have to do a lot of training. Years of training. First
           there&apos;s boot camp, of course, where you learn how to tie knots and march in step (I can tie knots, 
@@ -41,8 +41,10 @@ const NavyPage = (props) => {
           was tapped to give lots of training on things like class C fires, and also to coordinate the work controls for all the maintenance that 
           had to be done because our ship entered a reactor compartment overhaul, which is several years in drydock and includes refueling the reactor, 
           but also anything else that needs to be done to update the ship.</p>
-          {/**TODO add link to navy page for nukes, also add keynote presentation I made on MMNs
-          Also, perhaps, talk about how these skill make a good programmer... */}
+          {/**TODO add link to navy page for nukes, associate skills with code... */}
+          <p> Here's a quick overview of how nuclear powered aircraft carriers go: </p>
+          <iframe src="https://www.icloud.com/keynote/0YLBNmrvCXxjpbfqieqzqs4mQ?embed=true" width="640" height="500" frameborder="0" allowfullscreen="1" referrer="no-referrer"></iframe>
+     
           <Link to="/">Go back to the homepage</Link>
       </Box>
 
