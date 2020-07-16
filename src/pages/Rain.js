@@ -13,11 +13,11 @@ const RainPage = (props) => {
     return(
       <>
       <Box>
-          <p>hello this is the future rain page</p>
+          <p>hello this is the rain page</p>
           <Raining/>
-          
+          <Link to="/likes">Go back to the likes page</Link>
       </Box>
-      <Link to="/">Go back to the homepage</Link>
+
       </>
     )
 

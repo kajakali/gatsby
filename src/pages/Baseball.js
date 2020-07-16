@@ -11,10 +11,11 @@ const BaseballPage = (props) => {
 
     return(
       <>
-      <Box>
+      <Box p={8}>
           <p>hello this is the future baseball page</p>
+          <Link to="/likes">Go back to the likes page</Link>
       </Box>
-      <Link to="/">Go back to the homepage</Link>
+
       </>
     )
 

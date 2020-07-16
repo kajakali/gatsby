@@ -1,17 +1,28 @@
 import React from 'react';
 import { Link } from "gatsby";
 import Box from '@material-ui/core/Box';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  root: {
+    background: 'linear-gradient(20deg, #bfcaff 30%, #bfe5ff 70%)',
+
+  },
+});
+
+
+
 
 
 
 
 
 const AmeriCorpsPage = (props) => {
-
+  const classes = useStyles();
 
     return(
       <>
-      <Box p={8}>
+      <Box p={8} className={classes.root}>
           <h1>AmeriCorps</h1>
             <h2>NCCC</h2>
               <p>AmeriCorps*NCCC is a community service program for people between 18 and 24. They work in teams of

@@ -1,17 +1,24 @@
 import React from 'react';
 import { Link } from "gatsby";
 import Box from '@material-ui/core/Box';
+import { makeStyles } from '@material-ui/core/styles';
 
-//TODO style the page... 
+const useStyles = makeStyles({
+  root: {
+    background: 'linear-gradient(50deg, #cac5e8 40%, #d6c5e8 90%)',
+
+  },
+});
+
 
 
 
 const NavyPage = (props) => {
-
+    const classes = useStyles();
 
     return(
       <>
-      <Box p={8}>
+      <Box p={8} className={classes.root}>
           <h1>United States Navy Nuclear Machinists Mate</h1>
               <p> I spent six years in the navy as a <a target="_blank" rel="noopener noreferrer" href="https://www.navy.com/nuclear">Nuclear</a> Machinists Mate (MMN). That&apos;s a mechanic that works on 
           nuclear powered aircraft carriers. My carrier was the USS Abraham Lincoln, CVN 72.</p>
@@ -43,6 +50,7 @@ const NavyPage = (props) => {
           but also anything else that needs to be done to update the ship.</p>
           {/**TODO add link to navy page for nukes, associate skills with code... */}
           <p> Here's a quick overview of how nuclear powered aircraft carriers go: </p>
+          <p> (it's loading from icloud so sometimes it takes a little while)</p>
           <iframe src="https://www.icloud.com/keynote/0YLBNmrvCXxjpbfqieqzqs4mQ?embed=true" width="640" height="500" frameborder="0" allowfullscreen="1" referrer="no-referrer"></iframe>
      
           <Link to="/">Go back to the homepage</Link>

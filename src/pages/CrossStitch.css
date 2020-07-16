@@ -1,0 +1,18 @@
+
+  .my-container {
+    position: relative;
+    overflow: hidden;
+}
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+
+Link {
+    z-index: -1;
+    position: relative;
+}

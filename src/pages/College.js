@@ -1,17 +1,24 @@
 import React from 'react';
 import { Link } from "gatsby";
 import Box from '@material-ui/core/Box';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  root: {
+    background: 'linear-gradient(20deg, #c9dcf5 30%, #c9d2f5 70%)',
+
+  },
+});
 
 
 
 
 
 const CollegePage = (props) => {
-
+  const classes = useStyles();
 
     return(
-      <>
-      <Box p={8}>
+      <Box p={8} className={classes.root}>
       <h1>College</h1>
       <h2>Chemistry</h2>
         <p>I had always said that the one subject I could imagine getting a 4 year degree in was Chemistry. 
@@ -23,9 +30,8 @@ const CollegePage = (props) => {
         <p> I wasn&apos;t <i>planning</i> on getting a minor in math, it was supposed to be physics. But in my 
         last semester, I needed a 5 credit physics class and there weren&apos;t any. So instead I took differential
         equations. </p>
-      </Box>
       <Link to="/">Go back to the homepage</Link>
-      </>
+      </Box>
     )
 
 
