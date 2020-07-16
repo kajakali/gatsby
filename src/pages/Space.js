@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Box from '@material-ui/core/Box';
 import SpaceShips from '../components/Activities/SpaceShips';
 
+//TODO shift all the css into a material ui theme that wraps the Space component.
 
 
 
