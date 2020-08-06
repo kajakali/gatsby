@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import TheShip from './TheShip';
+import Box from '@material-ui/core/Box';
 
 
 class SpaceShips extends Component {
@@ -37,8 +38,9 @@ class SpaceShips extends Component {
             :
             <Button color="primary" variant="contained" size="small" onClick={this.buildASpaceship}>Build a Spaceship!</Button>
             }
-             
-            <TheShip ship={this.state.possibleShips[this.state.currentShip]}/> 
+             <Box>
+                <TheShip ship={this.state.possibleShips[this.state.currentShip]}/> 
+             </Box>
             </>
         )
     }
