@@ -7,8 +7,10 @@ import TheShip from './TheShip';
 class SpaceShips extends Component {
     state = ({
         buildMode: false,
-        theShip: "bubble"
+        currentShip: 0,
+        possibleShips: ["#classy_spaceship", "#bubble_spaceship", "#alien_spaceship", "#space_shuttle"]
     });
+
 
  buildASpaceship = () => {
      console.log("Build a spaceship!!!");
@@ -36,7 +38,7 @@ class SpaceShips extends Component {
             <Button color="primary" variant="contained" size="small" onClick={this.buildASpaceship}>Build a Spaceship!</Button>
             }
              
-            <TheShip ship={this.state.theShip}/> 
+            <TheShip ship={this.state.possibleShips[this.state.currentShip]}/> 
             </>
         )
     }

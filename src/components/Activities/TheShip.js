@@ -232,7 +232,7 @@ const TheShip = (props) => {
 
  
   
-    <use href="#space_shuttle" />
+    <use href={props.ship} />
 
 </svg>
       </>
