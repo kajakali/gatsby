@@ -8,7 +8,7 @@ import Box from '@material-ui/core/Box';
 class SpaceShips extends Component {
     state = ({
         buildMode: false,
-        currentShip: 0,
+        currentShip: 1,
         possibleShips: ["#classy_spaceship", "#bubble_spaceship", "#alien_spaceship", "#space_shuttle"]
     });
 
