@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
+import TheShip from './TheShip';
 
 
 class SpaceShips extends Component {
     state = ({
-        buildMode: false
+        buildMode: false,
+        theShip: "bubble"
     });
 
  buildASpaceship = () => {
@@ -34,6 +36,7 @@ class SpaceShips extends Component {
             <Button color="primary" variant="contained" size="small" onClick={this.buildASpaceship}>Build a Spaceship!</Button>
             }
              
+            <TheShip ship={this.state.theShip}/> 
             </>
         )
     }
